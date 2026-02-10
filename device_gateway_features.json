@@ -1,0 +1,37 @@
+[
+  {
+    "feature": "device.timezone",
+    "gatewayId": "7982611000960252",
+    "deviceId": "gateway",
+    "timestamp": "2026-01-21T21:00:40.480Z",
+    "isEnabled": true,
+    "isReady": true,
+    "apiVersion": 1,
+    "uri": "https://api.viessmann-climatesolutions.com/iot/v2/features/installations/3077150/gateways/7982611000960252/devices/gateway/features/device.timezone",
+    "properties": {
+      "value": {
+        "type": "string",
+        "value": "Europe/Berlin"
+      }
+    },
+    "commands": {}
+  },
+  {
+    "feature": "tcu.wifi",
+    "gatewayId": "7982611000960252",
+    "deviceId": "gateway",
+    "timestamp": "2026-01-21T21:00:40.480Z",
+    "isEnabled": true,
+    "isReady": true,
+    "apiVersion": 1,
+    "uri": "https://api.viessmann-climatesolutions.com/iot/v2/features/installations/3077150/gateways/7982611000960252/devices/gateway/features/tcu.wifi",
+    "properties": {
+      "strength": {
+        "type": "number",
+        "value": -55,
+        "unit": ""
+      }
+    },
+    "commands": {}
+  }
+]

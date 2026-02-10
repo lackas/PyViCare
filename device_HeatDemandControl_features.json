@@ -1,0 +1,67 @@
+[
+  {
+    "feature": "hdc",
+    "gatewayId": "7982611000960252",
+    "deviceId": "HeatDemandControl",
+    "timestamp": "2026-01-21T21:00:40.643Z",
+    "isEnabled": true,
+    "isReady": true,
+    "apiVersion": 1,
+    "uri": "https://api.viessmann-climatesolutions.com/iot/v2/features/installations/3077150/gateways/7982611000960252/devices/HeatDemandControl/features/hdc",
+    "properties": {
+      "active": {
+        "type": "boolean",
+        "value": false
+      }
+    },
+    "commands": {}
+  },
+  {
+    "feature": "hdc.heating.circuits.0",
+    "gatewayId": "7982611000960252",
+    "deviceId": "HeatDemandControl",
+    "timestamp": "2026-01-21T21:00:40.643Z",
+    "isEnabled": false,
+    "isReady": true,
+    "apiVersion": 1,
+    "uri": "https://api.viessmann-climatesolutions.com/iot/v2/features/installations/3077150/gateways/7982611000960252/devices/HeatDemandControl/features/hdc.heating.circuits.0",
+    "properties": {},
+    "commands": {}
+  },
+  {
+    "feature": "hdc.heating.circuits.1",
+    "gatewayId": "7982611000960252",
+    "deviceId": "HeatDemandControl",
+    "timestamp": "2026-01-21T21:00:40.643Z",
+    "isEnabled": false,
+    "isReady": true,
+    "apiVersion": 1,
+    "uri": "https://api.viessmann-climatesolutions.com/iot/v2/features/installations/3077150/gateways/7982611000960252/devices/HeatDemandControl/features/hdc.heating.circuits.1",
+    "properties": {},
+    "commands": {}
+  },
+  {
+    "feature": "hdc.heating.circuits.2",
+    "gatewayId": "7982611000960252",
+    "deviceId": "HeatDemandControl",
+    "timestamp": "2026-01-21T21:00:40.643Z",
+    "isEnabled": false,
+    "isReady": true,
+    "apiVersion": 1,
+    "uri": "https://api.viessmann-climatesolutions.com/iot/v2/features/installations/3077150/gateways/7982611000960252/devices/HeatDemandControl/features/hdc.heating.circuits.2",
+    "properties": {},
+    "commands": {}
+  },
+  {
+    "feature": "hdc.heating.circuits.3",
+    "gatewayId": "7982611000960252",
+    "deviceId": "HeatDemandControl",
+    "timestamp": "2026-01-21T21:00:40.643Z",
+    "isEnabled": false,
+    "isReady": true,
+    "apiVersion": 1,
+    "uri": "https://api.viessmann-climatesolutions.com/iot/v2/features/installations/3077150/gateways/7982611000960252/devices/HeatDemandControl/features/hdc.heating.circuits.3",
+    "properties": {},
+    "commands": {}
+  }
+]
