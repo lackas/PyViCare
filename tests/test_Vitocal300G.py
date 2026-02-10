@@ -259,6 +259,19 @@ class Vitocal300G(unittest.TestCase):
         self.assertSetEqual(
             set(self.device.circuits[0].getHeatingScheduleModes()), expected_modes)
 
+    # Cooling circuit tests
+    def test_getAvailableCoolingCircuits(self):
+        self.assertEqual(
+            self.device.getAvailableCoolingCircuits(), ['0'])
+
+    def test_coolingCircuit_getType(self):
+        self.assertEqual(
+            self.device.coolingCircuits[0].getType(), "VC 3xx-G Emerson")
+
+    def test_coolingCircuit_getReverseActive(self):
+        self.assertEqual(
+            self.device.coolingCircuits[0].getReverseActive(), False)
+
 
 if __name__ == '__main__':
     unittest.main()
