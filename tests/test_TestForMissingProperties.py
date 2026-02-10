@@ -43,6 +43,7 @@ class TestForMissingProperties(unittest.TestCase):
             'heating.dhw.sensors.temperature.hotWaterStorage.bottom',
             'heating.dhw.sensors.temperature.hotWaterStorage.middle',
             'heating.dhw.sensors.temperature.hotWaterStorage.midBottom',
+            'heating.cop.green',  # deprecated, replaced by heating.cop.photovoltaic
         ]
 
         all_features = self.read_all_deprecated_features()
@@ -212,7 +213,7 @@ class TestForMissingProperties(unittest.TestCase):
             'heating.coolingCircuits.0.type',
             'heating.cop.cooling',
             'heating.cop.dhw',
-            'heating.cop.green',
+            'heating.cop.green',  # deprecated, replaced by heating.cop.photovoltaic
             'heating.cop.heating',
             'heating.cop.total',
             'heating.heatingRod.heatTarget',

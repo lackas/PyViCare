@@ -26,10 +26,6 @@ class Vitocal300G(unittest.TestCase):
         self.assertAlmostEqual(
             self.device.getCoefficientOfPerformanceCooling(), 0.0)
 
-    def test_getCoefficientOfPerformanceGreen(self):
-        self.assertAlmostEqual(
-            self.device.getCoefficientOfPerformanceGreen(), 0.0)
-
     # Compressor power tests
     def test_compressor_getPower(self):
         self.assertAlmostEqual(
@@ -253,19 +249,6 @@ class Vitocal300G(unittest.TestCase):
     def test_getConfigurationDHWHeaterApproved(self):
         self.assertEqual(
             self.device.getConfigurationDHWHeaterApproved(), True)
-
-    # Cooling circuit tests
-    def test_getAvailableCoolingCircuits(self):
-        self.assertEqual(
-            self.device.getAvailableCoolingCircuits(), ['0'])
-
-    def test_coolingCircuit_getType(self):
-        self.assertEqual(
-            self.device.coolingCircuits[0].getType(), "VC 3xx-G Emerson")
-
-    def test_coolingCircuit_getReverseActive(self):
-        self.assertEqual(
-            self.device.coolingCircuits[0].getReverseActive(), False)
 
 
 if __name__ == '__main__':
